@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+body{
+   background-color: black;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px auto;
+  padding: 20px auto;
+ 
+}
+h1{
+  color: white;
+  text-align: center;
+  font-family: Sans-Serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(47, 46, 46);
+  align-items: center;
+}
+label{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: Helvetica;
+  margin-top: 15px;
+}
+input{
+  height: 50px;
+  width: 350px;
+  margin: 15px;
+}
+button{
+  height: 40px;
+  width: 350px;
+  background: linear-gradient(rgb(52, 192, 235),rgb(52, 150, 235));
+  font-size: 20px;
+  cursor: pointer;
+}
+#output{
+  width: 400px;
+  height: auto;
+  background-color: rgb(47, 46, 46);
+  border: 1px solid white;
+  margin-top: 40px;
+  display: none;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  font-family: sans-serif;
+}
